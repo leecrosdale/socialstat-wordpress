@@ -152,6 +152,6 @@ function socialstat_process_shortcode($atts) {
 
 	$service = $a['service'];
 
-    return "<span style='color:blue;'>" . $service  . " - " . social_stat_get_stat($service) . "</span>";
+    return social_stat_get_stat($service);
 }
 
