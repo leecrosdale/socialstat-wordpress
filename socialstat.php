@@ -108,7 +108,7 @@ function social_stat_get_stat($type) {
 	} else {
 
 		$token = $rows[0]->api_token;
-		$url = 'https://socialstat.co.uk/' . $type . '/followers';
+		$url = 'https://app.socialstat.co.uk/' . $type . '/followers';
 
 		$args = array(
 			'timeout'     => 5,
